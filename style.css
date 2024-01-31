@@ -23,7 +23,7 @@ p{
 }
 
 #main {
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -32,12 +32,12 @@ p{
     background-position: 50% 30%;
     background-size: cover;
     width: 100%;
-    height: 60%;
+    min-height: 60vh;
 }
 
 #overlay {
     width: 100%;
-    height: 100%;
+    min-height: inherit;
     background-color: rgba(0, 0, 0, 0.425);
 }
 
@@ -94,14 +94,14 @@ p{
 #bottom {
     background-color: black;
     width: 100%;
-    height: 40%;
+    min-height: 40vh;
     display: flex;
 }
 
 #bottom1 {
     background-color: whitesmoke;
     width: 22%;
-    height: 100%;
+    min-height: inherit;
     padding: 3vw;
 }
 
@@ -127,13 +127,13 @@ p{
     background-size: cover;
     background-position: center;
     width: 28%;
-    height: 100%;
+    min-height: inherit;
 }
 
 #bottom3 {
     background-color: rgb(129, 129, 23);
     width: 20%;
-    height: 100%;
+    min-height: inherit;
 }
 
 #bottom3-top{
@@ -148,12 +148,12 @@ p{
     height: 50%;
 }
 #ovr-text-b3 h4{
-    color:#1F1F1F;
+    color:#ffffff;
     margin-bottom: 1.5vw;
 }
 
 #ovr-text-b3 p{
-    color:#1f1f1fc8;
+    color:#e8e2e2c8;
     font-size: 0.8vw;
 }
 #bottom3-bottom{
@@ -168,7 +168,7 @@ p{
 #bottom4 {
     background-color: #1F1F1F;
     width: 30%;
-    height: 100%;
+    min-height: inherit;
 }
 
 #bottom4 h4{
