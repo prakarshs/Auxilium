@@ -233,7 +233,7 @@ p {
     font-weight: 500;
 }
 
-@media (max-width:600px) {
+@media (max-width:500px) {
     #overlay {
         flex-direction: column;
         align-items: flex-start;
@@ -324,7 +324,7 @@ p {
 
 
     #ovr-text-b4 {
-        height: 50vh;
+        height: 75vh;
     }
 
     .card-text p{
